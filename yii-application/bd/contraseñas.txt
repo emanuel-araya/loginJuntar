@@ -1,0 +1,13 @@
+------
+
+Usuario: administrador 
+Contraseña: 12345678
+
+Usuario: organizador
+Contraseña: 12345678
+
+Usuario: usuario 
+Contraseña: 12345678
+
+
+-------

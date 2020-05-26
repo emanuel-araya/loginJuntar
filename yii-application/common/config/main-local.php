@@ -18,8 +18,8 @@ return [
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
                 'host' => 'smtp.gmail.com',
-                'username' => 'mauro.saracini@est.fi.uncoma.edu.ar',
-                'password' => '37474843',
+                'username' => '',
+                'password' => '',
                 'port' => '587',
                 'encryption' => 'tls',
             ],

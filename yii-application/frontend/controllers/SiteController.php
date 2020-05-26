@@ -39,7 +39,7 @@ class SiteController extends Controller
                     ],
                     [
                         //El administrador tiene permisos sobre las siguientes acciones
-                        'actions' => ['logout', 'admin'],
+                        'actions' => ['logout','signup','admin'],
                         //Esta propiedad establece que tiene permisos
                         'allow' => true,
                         //Usuarios autenticados, el signo ? es para invitados
@@ -210,7 +210,7 @@ class SiteController extends Controller
         $model = new SignupForm();
         if ($model->load(Yii::$app->request->post()) && $model->signup()) {
             Yii::$app->session->setFlash('Exito', 'Gracias por registrarse. Verifique su bandeja de entrada para el correo electrónico de verificación');
-            return $this->goHome();
+            //return $this->goHome();
         }
 
         return $this->render('signup', [

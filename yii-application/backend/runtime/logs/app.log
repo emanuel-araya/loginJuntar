@@ -1,0 +1,576 @@
+2020-05-24 01:49:47 [::1][-][c44cfe8a160e19e0de24bedcd4950aec][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2020-05-24 01:49:47 [::1][-][c44cfe8a160e19e0de24bedcd4950aec][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '75cc0337a98295bc26b7dc56130dd96ed838fe74d63a8de087365d918175859ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BUV65ADTyKHLXWx2AQrGZjjruFw5IoDM\";}'
+    'advanced-frontend' => '88786de216800c138f99a7e3404324d0'
+    '_csrf-backend' => 'e1da2bf8e1d5f96181c0ef3a9c04ed1a471341b000b0cb4a68370d1f4639c2e5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hW5_zZ0uTm24YaDNAdkDPC7WkWOGXH5j\";}'
+    'advanced-backend' => 'c44cfe8a160e19e0de24bedcd4950aec'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/webAvanzada/yii/yii-application/backend/web/index.php'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Xsm2m@-AiA0Ij9NFjHlgywAAAAQ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.125'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=75cc0337a98295bc26b7dc56130dd96ed838fe74d63a8de087365d918175859ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BUV65ADTyKHLXWx2AQrGZjjruFw5IoDM%22%3B%7D; advanced-frontend=88786de216800c138f99a7e3404324d0; _csrf-backend=e1da2bf8e1d5f96181c0ef3a9c04ed1a471341b000b0cb4a68370d1f4639c2e5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hW5_zZ0uTm24YaDNAdkDPC7WkWOGXH5j%22%3B%7D; advanced-backend=c44cfe8a160e19e0de24bedcd4950aec'
+    'PATH' => '/sbin:/usr/sbin:/usr/local/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) OpenSSL/1.1.1e PHP/7.4.4 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '48644'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/webAvanzada/yii/yii-application/backend/web/index.php?r=gii'
+    'SCRIPT_NAME' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'PHP_SELF' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590277787.467
+    'REQUEST_TIME' => 1590277787
+]
+2020-05-24 01:50:05 [::1][1][f1f68dda04d54d7573542b16326967e6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2020-05-24 01:50:05 [::1][1][f1f68dda04d54d7573542b16326967e6][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '75cc0337a98295bc26b7dc56130dd96ed838fe74d63a8de087365d918175859ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BUV65ADTyKHLXWx2AQrGZjjruFw5IoDM\";}'
+    'advanced-frontend' => '88786de216800c138f99a7e3404324d0'
+    'advanced-backend' => 'f1f68dda04d54d7573542b16326967e6'
+    '_identity-backend' => '56e20e4f2ca56038da4094d976ea7729b2b9bfc529cd6eece35cf830f6c27164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"BgVOJon0AIN3GzOYzMzp1C6LUem1QxDO\",2592000]\";}'
+    '_csrf-backend' => 'ee1c338c7752f1f9f61262814959f9345e5e40caf6942657c23325692f1a18d1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"UWC_Q1EneOkbJRttDRsYPX4oFPiyPq1r\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/webAvanzada/yii/yii-application/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Xsm2rSRS91CGTDl23I2P9AAAAAY'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.125'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=75cc0337a98295bc26b7dc56130dd96ed838fe74d63a8de087365d918175859ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BUV65ADTyKHLXWx2AQrGZjjruFw5IoDM%22%3B%7D; advanced-frontend=88786de216800c138f99a7e3404324d0; advanced-backend=f1f68dda04d54d7573542b16326967e6; _identity-backend=56e20e4f2ca56038da4094d976ea7729b2b9bfc529cd6eece35cf830f6c27164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22BgVOJon0AIN3GzOYzMzp1C6LUem1QxDO%22%2C2592000%5D%22%3B%7D; _csrf-backend=ee1c338c7752f1f9f61262814959f9345e5e40caf6942657c23325692f1a18d1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UWC_Q1EneOkbJRttDRsYPX4oFPiyPq1r%22%3B%7D'
+    'PATH' => '/sbin:/usr/sbin:/usr/local/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) OpenSSL/1.1.1e PHP/7.4.4 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '48656'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/webAvanzada/yii/yii-application/backend/web/index.php?r=gii'
+    'SCRIPT_NAME' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'PHP_SELF' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590277805.161
+    'REQUEST_TIME' => 1590277805
+]
+2020-05-24 05:11:04 [::1][-][47bbb9fb8b623262beb4a88bf2872cff][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2020-05-24 05:11:04 [::1][-][47bbb9fb8b623262beb4a88bf2872cff][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ee1c338c7752f1f9f61262814959f9345e5e40caf6942657c23325692f1a18d1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"UWC_Q1EneOkbJRttDRsYPX4oFPiyPq1r\";}'
+    'advanced-backend' => '47bbb9fb8b623262beb4a88bf2872cff'
+    '_csrf-frontend' => '8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T\";}'
+    'advanced-frontend' => '60ace87cbb8b9d2c34c9ee8c5bd2a26e'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/webAvanzada/yii/yii-application/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'XsnlyGMDvzAldVTo@EgfagAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.125'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf-backend=ee1c338c7752f1f9f61262814959f9345e5e40caf6942657c23325692f1a18d1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UWC_Q1EneOkbJRttDRsYPX4oFPiyPq1r%22%3B%7D; advanced-backend=47bbb9fb8b623262beb4a88bf2872cff; _csrf-frontend=8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T%22%3B%7D; advanced-frontend=60ace87cbb8b9d2c34c9ee8c5bd2a26e'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) OpenSSL/1.1.1e PHP/7.4.4 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '43310'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/webAvanzada/yii/yii-application/backend/web/index.php?r=gii'
+    'SCRIPT_NAME' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'PHP_SELF' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590289864.607
+    'REQUEST_TIME' => 1590289864
+]
+2020-05-24 05:12:49 [::1][1][ebf83d74ea921c232f16943bac7edd5e][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2020-05-24 05:12:49 [::1][1][ebf83d74ea921c232f16943bac7edd5e][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T\";}'
+    'advanced-frontend' => '60ace87cbb8b9d2c34c9ee8c5bd2a26e'
+    'advanced-backend' => 'ebf83d74ea921c232f16943bac7edd5e'
+    '_identity-backend' => '56e20e4f2ca56038da4094d976ea7729b2b9bfc529cd6eece35cf830f6c27164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"BgVOJon0AIN3GzOYzMzp1C6LUem1QxDO\",2592000]\";}'
+    '_csrf-backend' => '796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/webAvanzada/yii/yii-application/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'XsnmMUmXKomXAgD6k2ufbwAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.125'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T%22%3B%7D; advanced-frontend=60ace87cbb8b9d2c34c9ee8c5bd2a26e; advanced-backend=ebf83d74ea921c232f16943bac7edd5e; _identity-backend=56e20e4f2ca56038da4094d976ea7729b2b9bfc529cd6eece35cf830f6c27164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22BgVOJon0AIN3GzOYzMzp1C6LUem1QxDO%22%2C2592000%5D%22%3B%7D; _csrf-backend=796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) OpenSSL/1.1.1e PHP/7.4.4 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '43376'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/webAvanzada/yii/yii-application/backend/web/index.php?r=gii'
+    'SCRIPT_NAME' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'PHP_SELF' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590289969.646
+    'REQUEST_TIME' => 1590289969
+]
+2020-05-24 05:15:08 [::1][1][ebf83d74ea921c232f16943bac7edd5e][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2020-05-24 05:15:08 [::1][1][ebf83d74ea921c232f16943bac7edd5e][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T\";}'
+    'advanced-frontend' => '60ace87cbb8b9d2c34c9ee8c5bd2a26e'
+    'advanced-backend' => 'ebf83d74ea921c232f16943bac7edd5e'
+    '_identity-backend' => '56e20e4f2ca56038da4094d976ea7729b2b9bfc529cd6eece35cf830f6c27164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"BgVOJon0AIN3GzOYzMzp1C6LUem1QxDO\",2592000]\";}'
+    '_csrf-backend' => '796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/webAvanzada/yii/yii-application/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'XsnmvF-rGRgn7zA-wgyEsgAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.125'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T%22%3B%7D; advanced-frontend=60ace87cbb8b9d2c34c9ee8c5bd2a26e; advanced-backend=ebf83d74ea921c232f16943bac7edd5e; _identity-backend=56e20e4f2ca56038da4094d976ea7729b2b9bfc529cd6eece35cf830f6c27164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22BgVOJon0AIN3GzOYzMzp1C6LUem1QxDO%22%2C2592000%5D%22%3B%7D; _csrf-backend=796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) OpenSSL/1.1.1e PHP/7.4.4 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '43400'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/webAvanzada/yii/yii-application/backend/web/index.php?r=gii'
+    'SCRIPT_NAME' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'PHP_SELF' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590290108.508
+    'REQUEST_TIME' => 1590290108
+]
+2020-05-24 05:17:00 [::1][1][ebf83d74ea921c232f16943bac7edd5e][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2020-05-24 05:17:00 [::1][1][ebf83d74ea921c232f16943bac7edd5e][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T\";}'
+    'advanced-frontend' => '60ace87cbb8b9d2c34c9ee8c5bd2a26e'
+    'advanced-backend' => 'ebf83d74ea921c232f16943bac7edd5e'
+    '_identity-backend' => '56e20e4f2ca56038da4094d976ea7729b2b9bfc529cd6eece35cf830f6c27164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"BgVOJon0AIN3GzOYzMzp1C6LUem1QxDO\",2592000]\";}'
+    '_csrf-backend' => '796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/webAvanzada/yii/yii-application/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'XsnnLKe6cnQC08W1hfE1gwAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.125'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T%22%3B%7D; advanced-frontend=60ace87cbb8b9d2c34c9ee8c5bd2a26e; advanced-backend=ebf83d74ea921c232f16943bac7edd5e; _identity-backend=56e20e4f2ca56038da4094d976ea7729b2b9bfc529cd6eece35cf830f6c27164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22BgVOJon0AIN3GzOYzMzp1C6LUem1QxDO%22%2C2592000%5D%22%3B%7D; _csrf-backend=796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) OpenSSL/1.1.1e PHP/7.4.4 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '43406'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/webAvanzada/yii/yii-application/backend/web/index.php?r=gii'
+    'SCRIPT_NAME' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'PHP_SELF' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590290220.893
+    'REQUEST_TIME' => 1590290220
+]
+2020-05-24 05:17:32 [::1][-][13f7689115bf8f1a2101bd672382129f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2020-05-24 05:17:32 [::1][-][13f7689115bf8f1a2101bd672382129f][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T\";}'
+    'advanced-frontend' => '60ace87cbb8b9d2c34c9ee8c5bd2a26e'
+    '_csrf-backend' => '796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329\";}'
+    'advanced-backend' => '13f7689115bf8f1a2101bd672382129f'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/webAvanzada/yii/yii-application/backend/web/index.php'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'XsnnTPQH8JDUBVqUIKqYOgAAAAU'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.125'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=8ba016def64ab8748bac6e7e1713982d93334b1aa3655a19ded199283c3dfa27a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HjtDh0jqdBeOdjcArJc8kHXLqdbxzs8T%22%3B%7D; advanced-frontend=60ace87cbb8b9d2c34c9ee8c5bd2a26e; _csrf-backend=796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329%22%3B%7D; advanced-backend=13f7689115bf8f1a2101bd672382129f'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) OpenSSL/1.1.1e PHP/7.4.4 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '43416'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/webAvanzada/yii/yii-application/backend/web/index.php?r=gii'
+    'SCRIPT_NAME' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'PHP_SELF' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590290252.203
+    'REQUEST_TIME' => 1590290252
+]
+2020-05-25 18:48:24 [::1][-][13f7689115bf8f1a2101bd672382129f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "auth/post". in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('auth/post', Array)
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/webAvanzada/yii/yii-application/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2020-05-25 18:48:24 [::1][-][13f7689115bf8f1a2101bd672382129f][info][application] $_GET = [
+    'r' => 'auth/post'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => '796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329\";}'
+    'advanced-backend' => '13f7689115bf8f1a2101bd672382129f'
+    'advanced-frontend' => '995713f6f18fdafa68ff49f8edf743f0'
+    '_identity-frontend' => 'f27d3f90f97a889b4320899de7765f2424d8e00e3c9a44a5d2550a54a3c85b90a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"4teB0Te3vt-UYT20MAXPCn47kwhxiYPv\",2592000]\";}'
+    '_csrf-frontend' => 'b169e3199c50b838904dec60d712324a5c05aeaff3e598fb87523bfe97c4fd70a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"gjQAAcaqBeDq8z47QR-COI9PgtH-hW_w\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/webAvanzada/yii/yii-application/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Xsv22LAMCDxsHLbK5UZbnQAAAAQ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.125'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf-backend=796c90f0a15766315865da489b3864e2021445c99e92e268e5287515fea7b11ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Gph9PpQlyNbZ-gPb9TKYvb2moAxhA329%22%3B%7D; advanced-backend=13f7689115bf8f1a2101bd672382129f; advanced-frontend=995713f6f18fdafa68ff49f8edf743f0; _identity-frontend=f27d3f90f97a889b4320899de7765f2424d8e00e3c9a44a5d2550a54a3c85b90a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224teB0Te3vt-UYT20MAXPCn47kwhxiYPv%22%2C2592000%5D%22%3B%7D; _csrf-frontend=b169e3199c50b838904dec60d712324a5c05aeaff3e598fb87523bfe97c4fd70a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22gjQAAcaqBeDq8z47QR-COI9PgtH-hW_w%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) OpenSSL/1.1.1e PHP/7.4.4 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '49212'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=auth/post'
+    'REQUEST_URI' => '/webAvanzada/yii/yii-application/backend/web/index.php?r=auth/post'
+    'SCRIPT_NAME' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'PHP_SELF' => '/webAvanzada/yii/yii-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1590425304.368
+    'REQUEST_TIME' => 1590425304
+]
